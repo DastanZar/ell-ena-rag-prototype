@@ -26,7 +26,7 @@ except ImportError:
         LLM_PROVIDER = None
 
 # Configuration - UPDATE THIS WITH YOUR API KEY
-API_KEY = "AIzaSyChrzfL6U37pkN__XuPpHRVQORIDederJ8"  # Replace with your actual API key
+API_KEY = "Use any free key from Google AI studio"  # Replace with your actual API key
 MODEL_NAME = "gpt-4" if LLM_PROVIDER == "openai" else "gemini-pro"
 
 
