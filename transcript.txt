@@ -1,0 +1,5 @@
+Sarah: Okay, the next item on the agenda is the login screen crash. Who has context on this?
+Mike: I looked at the logs this morning. It seems the OAuth token is expiring early, and the frontend isn't catching the 401 error. It just freezes. 
+Sarah: Got it. We need to fix that error handling. Mike, can you take that on? It needs to be done by this Friday before the weekend traffic spike.
+Mike: Yeah, I can handle the frontend catch. But someone needs to check the backend token lifecycle. 
+Sarah: I'll review the backend token lifecycle by Wednesday. Let's make sure these two tasks are tracked.
