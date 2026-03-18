@@ -12,6 +12,12 @@ This prototype demonstrates a strict extraction and filtering pipeline designed 
 2. **Strict Prompting:** It passes only the transcript and the filtered context to the LLM. 
 3. **Validated Extraction:** It forces the LLM to ignore existing tasks and extract only *new* action items, outputting a strict JSON schema (`Assignee`, `Deadline`, `Task Title`, `Priority`) ready to be pushed to a Kanban backend.
 
+4. ### Proof of Work: Execution Pipeline
+The local execution logs below demonstrate the end-to-end RAG pipeline successfully ingesting data, scoring similarities, and formatting the final JSON output. *(Note: LLM generation was routed to a mock fallback to validate the retrieval architecture and prompt formatting without burning API credits).*
+
+<img width="537" height="881" alt="Local Execution Terminal Logs" src="https://github.com/user-attachments/assets/47179914-e4d7-4ad9-85c1-b38ce28d208d" />
+
+
 ### Running Locally
 1. Clone the repository.
 2. Install dependencies: `pip install scikit-learn openai`
